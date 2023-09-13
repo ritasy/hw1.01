@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    function show(page) {
+      document.querySelectorAll(".page").forEach(function(page) {
+        page.classList.add("hidden");
+      })
+      document.querySelectorAll(page).forEach(function(page) {
+        page.classList.remove("hidden");
+      })
+    }
+  </script>
+</head>
+
+<body>
+  <div class="pages">
+    <div class="page page1">
+      <h1 class="creepyText">
+        <a href="javascript:show('.page2')" class="page-link">
+          ENTER IF YOU DARE
+        </a>
+      </h1>
+    </div>
+
+
+    <div class="page page2 hidden">
+      <h3>
+        <a href="javascript:show('.page1')" class="back-link">
+          Go Back
+        </a>
+      </h3>
+    </div>
+  </div>
+</body>
+
+</html>
