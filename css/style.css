@@ -14,7 +14,7 @@ body, html {
 }
 
 .page1 {
-  background: url(/media/images/wp11015689-red-horror-wallpapers.jpg) no-repeat center center fixed; 
+  background: url(../media/images/wp11015689-red-horror-wallpapers.jpg) no-repeat center center fixed; 
   background-size: cover;
   position: absolute;
 }
