@@ -6,7 +6,6 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #000;
 }
 
 .page {
@@ -28,10 +27,10 @@ body, html {
 
 .creepyText {
   position: absolute;
-  top: 30%;
+  top: 20%;
   width: 100%;
   text-align: center;
-  font-size: 80px;
+  font-size: 100px;
   color: rgb(12, 88, 12);
   text-shadow: 4px 2px 7px rgb(0, 0, 0);
   font-family: 'Creepster', cursive;
