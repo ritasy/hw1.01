@@ -60,7 +60,7 @@ body, html {
 }
 
 .back-link:hover {
-  color: #6f6f6f;
+  color: #640d0d;
   transition: color 0.2s;
   text-decoration: underline;
 }
