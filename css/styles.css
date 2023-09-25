@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rubik+Iso&family=Yuji+Mai&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #9c9797;
+  height: 100vh;
+  background-color: #000;
+}
+
+.center-text h1 {
+  font-size: 6em;  
+  margin: 0;  
+  font-family: 'Creepster', cursive;
+  
+}
+
+.center-text h1 a {
+  color: #690a0a;
+  text-decoration: none;  
+  transition: color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+.center-text h1 a:hover {
+  color: #2e0404;  
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #350404;
+  color: #817b7b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;  
+  cursor: pointer; 
+
+
+  position: absolute;  
+  left: 50%;  
+  bottom: 4%;  
+  transform: translateX(-50%);  
+}
+
+.back-button:hover {
+  background-color: #240202;  
+}
+
+
+.image-button-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 0 5%; 
+}
+
+.image-button {
+  flex: 1; 
+  margin: 0 1%; 
+  text-decoration: none;  
+  box-sizing: border-box; 
+  padding: 10px;
+  background-color: #310404;
+  height: 200px; 
+}
+
+.image-button img {
+  display: block;
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  object-position: center; 
+  transition: transform 0.3s; 
+}
+
+.image-button:hover img {
+  transform: scale(1.05); 
+}
+
+
+.split-layout {
+  display: flex;
+  height: 100vh;  
+}
+
+
+.poem, .image-section {
+  flex: 1;  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;  
+    padding: 2%;  
+    box-sizing: border-box;
+}
+
+.image-section img {
+  max-width: 100%;  
+  height: 400px;
+}
+
+
+.page3-bg {
+  background-image: url('../media/images/icu.gif');
+  background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+#handGif {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 400px; 
+  height: auto;
+  z-index: 1000; 
+}
+
+.page4-bg {
+  background-image: url('../media/images/glow.gif');
+  background-repeat: repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
